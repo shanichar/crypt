@@ -4,11 +4,11 @@ print("Thanks for using pyessentials")
 # __author__  ~~Shaurya Mishra~~
 # __date created__ 29/05/2022
 #                                  
-#                                Details-
-#                             * This library uses base64 for encryption and decryption purpose.
-#                             * Contains two classes *encryption and *text having 4 and 3 functions respectively.
-#                             * Class encryption can be used for encrypting data and files while text file can be used to read, write or alter strings present in a text file.
-
+#            Details-
+#         * This library uses base64 for encryption and decryption purpose.
+#         * Contains two classes *encryption and *text having 4 and 3 functions respectively.
+#         * Class encryption can be used for encrypting data and files while text file can be used to read, write or alter strings present in a text file.
+#         * Usage of this script should only be for educational and developement purposes and I won't be responsible for any misuse of the script.
 
 import base64
 
@@ -62,7 +62,4 @@ class text():
     def study(name):
         f = open(str(name), "r")
         r = f.read()
-        return r        
-
-
-    
+        return r
